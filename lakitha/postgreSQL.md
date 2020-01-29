@@ -1,4 +1,4 @@
-# PostGreSQL
+# postGreSQL
 
 The following is an instructable on how to use PostGreSql 
 
