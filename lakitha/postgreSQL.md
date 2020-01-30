@@ -2,6 +2,7 @@
 
 The following is an instructable on how to use PostGreSql 
 
+## Basics
 - Install Postgresql on Ubuntu 
 ```sudo apt-get install postgresql postgresql-contrib```
 
@@ -83,6 +84,21 @@ ALTER ROLE</pre>
 <pre>postgres=# DROP USER teamlaryTest;
 DROP ROLE
 </pre>
+
+- Quit psql Command Line:
+<pre>postgres-# \q
+</pre>
+
+## PGAdmin App 
+
+- Instaling the PQAdmin client:
+This can be found on Ubuntu software App
+
+- By default you can add the following to manage the postgres database 
+
+
+
+
 
 
 
