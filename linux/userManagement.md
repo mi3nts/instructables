@@ -1,4 +1,4 @@
-## Create a new sudo User 
+## Create a new sudo user 
 On the command window type the following commands and ener data as par instructed:
 - Create user:
 `sudo adduser teamlary` </br> 
