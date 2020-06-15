@@ -1,5 +1,5 @@
 # MINTS Instructables
-## How To Build a Github Pages Website 
+## How To Build a Github Pages Website:
 
 Once creating a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
 
@@ -9,7 +9,7 @@ Make sure to initialize the repository with a README.
 
 The remaining process of creating a GitHub page varies from if you’re building a user/organization site or your project a site.
 
-### User/Organization Site:
+**### User/Organization Site:**
 **1. Clone your repository**
 
 -***If you are using a terminal,*** navigate to the folder you’d like to store your project, and then clone the repository by clicking the green “Clone or download” button on your repository's home page. 
@@ -20,8 +20,8 @@ The remaining process of creating a GitHub page varies from if you’re building
 
 **3. Finalize:** Enter the repository, commit, and publish your changes
 
-### Project Site:
-#### Starting from scratch:
+**### Project Site:**
+***#### Starting from scratch:***
 **1. Create an index file:**
 Under your repository create a new file by pressing the “Create new file” button. Name the file html, and type HTML content into the editor. Commit the file.
 
@@ -33,7 +33,7 @@ Now select your source. Your "source" is considered the root of your web page.
 
 *-If your chosen publishing source doesn’t exist, create it.*
 
-#### Choosing a theme:
+***#### Choosing a theme:***
 **1. Choose a theme:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category in settings until you find the heading labeled, “Github Pages.” 
 
