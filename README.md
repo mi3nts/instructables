@@ -16,14 +16,18 @@ The remaining process of creating a GitHub page varies from if you’re building
 
 -***If you are using GitHub Desktop,*** click the “Set up in Desktop” button to clone your repository.
 
-**2. Create/Add an index.html file:** After entering your project folder you need to add an index.html file
+**2. Create/Add an index.html file:** After entering your project folder you need to add an ```index.html``` file
 
 **3. Finalize:** Enter the repository, commit, and publish your changes
 
 ### **Project Site:**
 #### ***Starting from scratch:***
 **1. Create an index file:**
-Under your repository create a new file by pressing the “Create new file” button. Name the file html, and type HTML content into the editor. Commit the file.
+Under your repository create a new file by pressing the “Create new file” button. 
+
+Name the file, ```index.html,``` and type HTML content into the editor. 
+
+Commit the file.
 
 **2. Enable Github Pages:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category until you find the heading labeled, “Github Pages.” 
