@@ -16,7 +16,7 @@ The remaining process of creating a GitHub page varies from if you’re building
 
 -***If you are using GitHub Desktop,*** click the “Set up in Desktop” button on the repository's homepage to clone.
 
-**2. Create/Add an index.html file:** After entering your project folder you need to add an ```index.html``` file
+**2. Create/Add an index.html file:** After entering your project folder you need to add an ```index.html``` file to your project.
 
 **3. Finalize:** Enter the repository, commit, and publish your changes
 
@@ -48,4 +48,4 @@ You can do this by clicking the settings button on your repository. Scroll down 
 
 **3. Edit The Content On Your Site**
 
-**4. Click The Green “Commit changes” Button**
+**4. Click The Green “Commit changes” Button To Finalize**
