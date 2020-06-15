@@ -1,4 +1,4 @@
-# MINTS Instructables
+# **MINTS Instructables**
 ## How To Build a Github Pages Website:
 
 Once creating a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
