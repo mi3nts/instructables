@@ -28,6 +28,7 @@ Under your repository create a new file by pressing the “Create new file” bu
 **2. Enable Github Pages:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category until you find the heading labeled, “Github Pages.” 
 Now select your source. Your "source" is considered the root of your web page.
+
 *-If your chosen publishing source already exists, navigate to it.*
 
 *-If your chosen publishing source doesn’t exist, create it.*
