@@ -25,12 +25,16 @@ Under your repository create a new file by pressing the “Create new file” bu
 **2. Enable Github Pages:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category until you find the heading labeled, “Github Pages.” 
 Then you need to select your source, which is considered the “root” of your web page.
--If your chosen publishing source already exists, navigate to it.
--If your chosen publishing source doesn’t exist, create it.
+*-If your chosen publishing source already exists, navigate to it.*
+
+*-If your chosen publishing source doesn’t exist, create it.*
 
 #### Choosing a theme:
-1. Choose a theme
+**1. Choose a theme:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category until you find the heading labeled, “Github Pages.” 
-2. Pick a theme
-3. Edit the content on your site
-4. Click the green “Commit changes” button
+
+**2. Pick a theme**
+
+**3. Edit the content on your site**
+
+**4. Click the green “Commit changes” button**
