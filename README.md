@@ -31,7 +31,7 @@ Now select your source. Your "source" is considered the root of your web page.
 
 Use the "Source" drop-down menu to select a publishing source.
 
-*-If creating a user/organization site, you must save your site's source code on the ```master``` branch.
+*-If creating a user/organization site, you must save your site's source code on the ```master``` branch.*
 
 *-If your chosen publishing source already exists, navigate to it.*
 
