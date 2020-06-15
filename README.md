@@ -9,9 +9,9 @@ The remaining process of creating a GitHub page varies from if you’re building
 ### User/Organization Site:
 **1. Clone your repository**
 
--__*If you are using a terminal,*__ navigate to the folder you’d like to store your project, and then clone the repository by clicking the green “Clone or download” button on your repository’s GitHub page. 
+-***If you are using a terminal,*** navigate to the folder you’d like to store your project, and then clone the repository by clicking the green “Clone or download” button on your repository’s GitHub page. 
 
--__*If you are using GitHub Desktop,*__ click the “Set up in Desktop” button to clone your repository.
+-***If you are using GitHub Desktop,*** click the “Set up in Desktop” button to clone your repository.
 
 **2. Create/Add an index.html file:** After entering your project folder you need to add an index.html file
 
