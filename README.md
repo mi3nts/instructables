@@ -49,4 +49,3 @@ You can do this by clicking the settings button on your repository. Scroll down 
 **3. Edit The Content On Your Site**
 
 **4. Click The Green “Commit changes” Button**
-```New repository```
