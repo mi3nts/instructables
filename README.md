@@ -3,7 +3,7 @@
 
 Once creating a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
 
-You can do this by logging on to GitHub.com, and then clicking the green button on the homepage labeled, +```“New repository.”```+
+You can do this by logging on to GitHub.com, and then clicking the green button on the homepage labeled, “New repository."
 
 Make sure to initialize the repository with a README.
 
