@@ -10,15 +10,15 @@ Make sure to initialize the repository with a README.
 The remaining process of creating a GitHub page varies from if you’re building a user/organization site or your project a site.
 
 ### **User/Organization Site:**
-**1. Clone your repository**
+**1. Clone Your Repository**
 
 -***If you are using a terminal,*** navigate to the folder you’d like to store your project, and then clone the repository by clicking the green “Clone or download” button on your repository's homepage. 
 
 -***If you are using GitHub Desktop,*** click the “Set up in Desktop” button on the repository's homepage to clone.
 
-**2. Create/Add an index.html file:** After entering your project folder you need to add an ```index.html``` file to your project.
+**2. Create/Add an index.html File:** After entering your project folder you need to add an ```index.html``` file to your project.
 
-**3. Finalize:** Enter the repository, commit, and publish your changes
+**3. Finalize:** Enter the repository, commit, and publish your changes.
 
 ### **Project Site:**
 #### ***Starting From Scratch:***
