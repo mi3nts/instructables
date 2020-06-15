@@ -41,10 +41,10 @@ Use the "Source" drop-down menu to select a publishing source.
 *-If your chosen publishing source doesn’t exist, create it.*
 
 #### ***Choosing a theme:***
-**1. Choose a Theme:**
+**1. Theme Chooser:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category in settings until you find the heading labeled, “Github Pages.” 
 
-**2. Pick a Theme**
+**2. Pick a Theme:** Click the, "Choose a theme" button that's under the Github Pages heading. Scroll through the theme options, and choose the one that's most appealing to you by clicking the green, "Select theme" button.
 
 **3. Edit The Content On Your Site**
 
