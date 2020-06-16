@@ -1,7 +1,7 @@
 # **MINTS Instructables**
 ## How To Build a Github Pages Website:
 
-Once creating a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
+Once you've created a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
 
 You can do this by logging on to GitHub.com, and then clicking the green button on the homepage labeled, “New repository."
 
