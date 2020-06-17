@@ -3,7 +3,7 @@
 
 Once you've created a GitHub account, the first thing you want to do when creating a GitHub Pages Website is to build a repository.
 
-You can do this by logging on to GitHub.com, and then clicking the green button on the homepage labeled, “New repository."
+You can do this by logging on to GitHub.com, and then clicking the green button on the homepage labeled, [“New repository."](https://github.com/new)
 
 Make sure to initialize the repository with a README.
 
@@ -12,6 +12,9 @@ Make sure to initialize the repository with a README.
 **The remaining process of creating a GitHub page varies from if you’re building a [user/organization site](https://mi3nts.github.io/instructables/#userorganization-site) or [your project a site.](https://mi3nts.github.io/instructables/#project-site)**
 
 ### **User/Organization Site:**
+
+You can either start your user/organization site by using a terminal, or by using GitHub Desktop.
+
 **1. Clone Your Repository**
 
 -***If you are using a terminal,*** navigate to the folder you’d like to store your project, and then clone the repository by clicking the green “Clone or download” button on your repository's homepage. 
@@ -33,6 +36,9 @@ Make sure to initialize the repository with a README.
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.18.31%20AM.png" width="330" height="69">
 
 ### **Project Site:**
+
+You can either start your project site [from scratch,](https://mi3nts.github.io/instructables/#starting-from-scratch) or by [choosing a theme.](https://mi3nts.github.io/instructables/#choosing-a-theme)
+
 #### ***Starting From Scratch:***
 **1. Create an Index File:**
 Under your repository create a new file by pressing the “Create new file” button. 
