@@ -7,6 +7,8 @@ You can do this by logging on to GitHub.com, and then clicking the green button 
 
 Make sure to initialize the repository with a README.
 
+<img src="data:image/png;base64,iVBOR…8F++2in4uMAsuAAAAAElFTkSuQmCC" width="400" height="300">
+
 The remaining process of creating a GitHub page varies from if you’re building a user/organization site or your project a site.
 
 ### **User/Organization Site:**
