@@ -7,8 +7,6 @@ You can do this by logging on to GitHub.com, and then clicking the green button 
 
 Make sure to initialize the repository with a README.
 
-<img src="data:image/png;base64,iVBOR…8F++2in4uMAsuAAAAAElFTkSuQmCC" width="400" height="300">
-
 The remaining process of creating a GitHub page varies from if you’re building a user/organization site or your project a site.
 
 ### **User/Organization Site:**
@@ -29,12 +27,16 @@ Under your repository create a new file by pressing the “Create new file” bu
 
 Name the file ```index.html``` and type HTML content into the editor. Commit the file.
 
+![](images/Screen%20Shot%202020-06-17%20at%203.21.38%20AM.png)
+
 **2. Enable Github Pages:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category in settings until you find the heading labeled, “Github Pages.” 
 
 Now select your source. Your "source" is considered the root of your web page.
 
 Use the "Source" drop-down menu to select a publishing source.
+
+![](images/Screen%20Shot%202020-06-17%20at%203.22.30%20AM.png)
 
 *-If creating a user/organization site, you must save your site's source code on the ```master``` branch.*
 
