@@ -43,7 +43,7 @@ You can either start your project site [from scratch,](https://mi3nts.github.io/
 **1. Create an Index File:**
 Under your repository create a new file by pressing the “Create new file” button. 
 
-<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.38%20AM.png" width="330" height="150">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.38%20AM.png" width="330" height="200">
 
 Name the file ```index.html``` and type HTML content into the editor. Commit the file.
 
