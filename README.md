@@ -29,11 +29,12 @@ You can either start your user/organization site by using a terminal, or by usin
 
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.15.37%20AM.png" width="330" height="122">
 
-<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.18.22%20AM.png" width="330" height="67">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.18.22%20AM.png" width="300" height="60">
 
 **3. Finalize:** Enter the repository, commit, and publish your changes.
 
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.18.31%20AM.png" width="330" height="69">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/finalization%203.png" width="500" height="240">
 
 ### **Project Site:**
 
@@ -83,3 +84,5 @@ You can do this by clicking the settings button on your repository. Scroll down 
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.20.17%20AM.png" width="330" height="183">
 
 **4. Click The Green “Commit changes” Button To Finalize**
+
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.22.13%20AM.png" width="400" height="191">
