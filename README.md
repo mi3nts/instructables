@@ -43,11 +43,11 @@ You can either start your project site [from scratch,](https://mi3nts.github.io/
 **1. Create an Index File:**
 Under your repository create a new file by pressing the “Create new file” button. 
 
-<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.38%20AM.png" width="370" height="250">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.38%20AM.png" width="370" height="220">
 
 Name the file ```index.html``` and type HTML content into the editor. Commit the file.
 
-<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.53%20AM.png" width="330" height="153">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.21.53%20AM.png" width="300" height="153">
 
 **2. Enable Github Pages:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category in settings until you find the heading labeled, “Github Pages.” 
@@ -72,7 +72,7 @@ Use the "Source" drop-down menu to select a publishing source.
 **1. Theme Chooser:**
 You can do this by clicking the settings button on your repository. Scroll down the “Options” category in settings until you find the heading labeled, “Github Pages.” 
 
-<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.19.36%20AM.png" width="330" height="180">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%203.19.36%20AM.png" width="367" height="180">
 
 **2. Pick a Theme:** Click the, "Choose a theme" button that's under the Github Pages heading. Scroll through the theme options, and choose the one that's most appealing to you by clicking the green, "Select theme" button.
 
