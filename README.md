@@ -7,7 +7,7 @@ You can do this by logging on to GitHub.com, and then clicking the green button 
 
 Make sure to initialize the repository with a README.
 
-<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%202.28.27%20AM.png" width="340" height="256">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-06-17%20at%202.28.27%20AM.png" width="380" height="276">
 
 **The remaining process of creating a GitHub page varies from if you’re building a [user/organization site](https://mi3nts.github.io/instructables/#userorganization-site) or [your project a site.](https://mi3nts.github.io/instructables/#project-site)**
 
