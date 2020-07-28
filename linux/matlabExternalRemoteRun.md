@@ -9,8 +9,8 @@
  ```
 parpool('myProf',16)
 ```
-- # numnber of workers = 16
-- parpool name = myProf
+- Number of workers = 16
+- Parpool name = myProf
  
  
  
