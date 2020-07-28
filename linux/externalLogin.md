@@ -1,4 +1,4 @@
-# login to external PC 
+# login to an external PC 
 
  - SSH into PC: ```ssh lhw150030@air930.utdallas.edu```
 
