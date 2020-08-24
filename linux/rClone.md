@@ -225,4 +225,4 @@ q) Quit config
 e/n/d/r/c/s/q&gt; 
 </pre>
 
-Usually with Mints Projects read only previledges are set as a precation. The final inputs for configuration can be kept defaualt. 
+Usually with Mints Projects read only previledges are set as a precation. The final inputs for the rclone configuration can be kept as defaualt. 
