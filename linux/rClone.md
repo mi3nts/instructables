@@ -226,3 +226,12 @@ e/n/d/r/c/s/q&gt;
 </pre>
 
 Usually with Mints Projects read only previledges are set as a precation. The final inputs for the rclone configuration can be kept as defaualt. 
+
+## Example shell script 
+
+```
+rclone -v sync palasStreamGoogleDrive:palasData/ /media/teamlary/Team_Lary_2/palasStreamPre/
+rsync -avzrtu /media/teamlary/Team_Lary_2/palasStreamPre/ /media/teamlary/Team_Lary_2/air930/mintsData/reference/palasStream
+```
+
+
