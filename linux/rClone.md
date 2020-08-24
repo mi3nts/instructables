@@ -142,11 +142,11 @@ Setting your own is recommended.
 See https://rclone.org/drive/#making-your-own-client-id for how to create your own.
 If you leave this blank, it will use an internal key which is low performance.
 Enter a string value. Press Enter for the default (&quot;&quot;).
-client_id&gt; 255649722334-5koj5q6ltahb923skl2hi4f309047fjn.apps.googleusercontent.com
+client_id&gt; xxxxx
 Google Application Client Secret
 Setting your own is recommended.
 Enter a string value. Press Enter for the default (&quot;&quot;).
-client_secret&gt; 1xbvO-OatEzZroUYoZ-s_waQ
+client_secret&gt; yyyyy
 Scope that rclone should use when requesting access from drive.
 Enter a string value. Press Enter for the default (&quot;&quot;).
 Choose a number from below, or type in your own value
@@ -203,7 +203,7 @@ type = drive
 client_id = xxxxx
 client_secret = yyyyyy
 scope = drive.readonly
-token = {&quot;access_token&quot;:&quot;ya29.a0AfH6SMDqWKGJZgtj6fRfOM3uCvMXiBD6kHEMCGbqC0RP1LZKgncGe3y1_FO-n6_VPUDxy2CSHbV8LuXz6CMiDGNLLW3ImRJ7WJBsVamCkHBLuEtp54cUJk_09sKIN3EuFVw7ETTUilvKxjp2tdgYVQoMCHT0O6QDeh8&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;refresh_token&quot;:&quot;1//0fZjulyBFXmPrCgYIARAAGA8SNwF-L9IrNC3nsYouOSikg7rEzZmZJmcLs40iDCNe-4cYpmU3vVoSSwEVwjzHLkCQUR1Cc-UJJzg&quot;,&quot;expiry&quot;:&quot;2020-08-24T00:04:40.359554215-05:00&quot;}
+token = {&zzzzzzzz}
 --------------------
 y) Yes this is OK (default)
 e) Edit this remote
