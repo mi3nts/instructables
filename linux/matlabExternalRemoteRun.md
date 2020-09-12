@@ -3,7 +3,7 @@
 ```matlab -nodesktop -nodisplay ```
 
 # Matlab External Run
- ```matlab -nodesktop -nodisplay ex.m  ```
+ ```matlab -nodesktop -nodisplay ex ```
  
 # Running Matlab without holting on a server 
 ```nohup matlab -r "MC_01_RNN; quit;" >& superNN.log &```
