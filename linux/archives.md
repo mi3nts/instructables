@@ -9,7 +9,7 @@ tar -czvf archive.tar.gz stuff
 ```
 tar -czvf archive.tar.gz stuff
 ```
--extracting tar file 
+- Extracting tar file 
 ```
 tar -xzvf archive.tar.gz
 ```
