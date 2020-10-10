@@ -11,6 +11,6 @@ On the command window type the following commands and ener data as par instructe
 The output should be `root`
 
 ## Deleting Users 
-`sudo su -`
-`userdel odroid`
-`userdel -r odroid`
+```sudo su -```
+```userdel odroid```
+```userdel -r odroid```
