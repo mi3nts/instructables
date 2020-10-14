@@ -20,3 +20,5 @@
 <font color="#75507B"> </font>  <font color="#75507B">UTDGuest</font>         <font color="#75507B">Infra</font>  <font color="#75507B">1</font>     <font color="#75507B">54 Mbit/s</font>  <font color="#75507B">55</font>      <font color="#75507B">▂▄__</font>              
 <font color="#75507B"> </font>  <font color="#75507B">CometNet_Legacy</font>  <font color="#75507B">Infra</font>  <font color="#75507B">1</font>     <font color="#75507B">54 Mbit/s</font>  <font color="#75507B">49</font>      <font color="#75507B">▂▄__</font>  <font color="#75507B">WPA2 802.1X</font> 
 </pre>
+
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis
