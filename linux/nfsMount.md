@@ -16,8 +16,10 @@ sudo chown -R 777 /Volumes/*
 ```
 ** For this case `/Volumes ` directory is used to mount NFS particians **
 
-- Edit `/etc/fstab`
+- Edit `/etc/fstab` 
+
 ```sudo nano /etc/fstab```
+
 Add the following line 
 ``` sourceIP:/location/in/source /local/Location nfs defaults,_netdev 0 0```
 eg: ```10.173.44.20:/volume1/MINTSNASMEDIA /Volumes/MINTSNASMEDIA nfs defaults,_netdev 0 0```
