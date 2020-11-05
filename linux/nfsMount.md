@@ -22,6 +22,7 @@ sudo chown -R 777 /Volumes/*
 
 Add the following line 
 ``` sourceIP:/location/in/source /local/Location nfs defaults,_netdev 0 0```
+
 eg: ```10.173.44.20:/volume1/MINTSNASMEDIA /Volumes/MINTSNASMEDIA nfs defaults,_netdev 0 0```
 
 - Either restart NFS or reboot 
