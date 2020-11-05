@@ -14,7 +14,7 @@ sudo mkdir -pv /Volumes/ExampleFolder
 sudo chown -R nobody:nogroup /Volumes/*
 sudo chown -R 777 /Volumes/*
 ```
-**For this case `/Volumes ` directory is used to mount NFS partitians **
+**For this case `/Volumes ` directory is used to mount NFS partitians**
 
 - Edit `/etc/fstab` 
 
