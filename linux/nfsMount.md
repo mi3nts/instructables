@@ -29,3 +29,4 @@ eg: ```10.173.44.20:/volume1/MINTSNASMEDIA /Volumes/MINTSNASMEDIA nfs defaults,_
    - Restart NFS: ```sudo systemctl restart nfs-kernel-server```
    - Reboot PC  : ```sudo reboot```
    
+192.168.0.1:/NASShare  /mnt/NAS  nfs username=administrator,password=pass  0 0
