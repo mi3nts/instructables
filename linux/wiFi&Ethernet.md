@@ -22,3 +22,27 @@
 </pre>
 
 https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis
+
+```
+1) arp-scan
+
+Installation is easy:
+
+sudo apt-get update
+sudo apt-get install arp-scan
+It has a ton of options, which can be seen here:
+
+sudo arp-scan --help
+For basic enumeration, to scan my "local" net, is:
+
+sudo arp-scan -l | sort
+Which results in a very basic display which shows each device including IP address, MAC address and manufacturer of the interface. It also showed "dup" responses for some of the addresses.
+
+2) nmap
+
+sudo apt-get update
+sudo apt-get install nmap
+To run a Fast scan, which lists devices and shows open ports
+
+nmap -F 192.168.8.1-254
+```
