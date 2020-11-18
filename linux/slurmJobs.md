@@ -41,8 +41,10 @@ matlab -nodesktop -nodisplay -nosplash -r "try utdNodesOptSolo2("$SLURM_ARRAY_TA
 ## Submit the job to the queue 
 ```sbatch utdNodesAllRun.sh```
 
-
-
+### References
+ - [UTD HPC help page](http://docs.oithpc.utdallas.edu/#id39)
+ - [TACC help page on Matlab](https://portal.tacc.utexas.edu/software/matlab)
+ - [ASK CI help for Job Arrays](https://ask.cyberinfrastructure.org/t/htc-using-slurm-job-arrays/1625) 
 
 
 
