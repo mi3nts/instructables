@@ -16,5 +16,7 @@ matlab -nodesktop -nodisplay -nosplash -r 'try utdNodesOptSolo2(1); catch; end; 
 On this example the job request 1 node and of  that one node it requests 16 cores.
 
 ## Submit the job to the queue 
-``` cat runSlurmScripts.sh```
+```
+sbatch utdNodesRun01.sh
+``
 
