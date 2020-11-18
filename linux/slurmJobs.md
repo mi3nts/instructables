@@ -20,4 +20,29 @@ On this example the job request 1 node and of  that one node it requests 16 core
 sbatch utdNodesRun01.sh
 ```
 
+## Submitting Parrelel Jobs
+***utdNodesAllRun.sh:***
+```
+ #!/bin/bash
+
+#SBATCH -J utdNodesRun        # Job name
+#SBATCH -o utdNodes.%j.out    # Name of stdout output file (%j expands to jobId)
+#SBATCH -N 1                  # Total number of nodes requested
+#SBATCH -n 16                 # Total number of mpi tasks requested
+#SBATCH --array=1-15          # Array ranks to run
+#SBATCH -t 24:00:00           # Run time (hh:mm:ss) - 24 hours
+
+ml load matlab
+echo Running calibration scripts for UTD Node: "$SLURM_ARRAY_TASK_ID"
+echo Running on host: `hostname`
+matlab -nodesktop -nodisplay -nosplash -r "try utdNodesOptSolo2("$SLURM_ARRAY_TASK_ID"); catch; end; quit"
+```
+
+## Submit the job to the queue 
+```sbatch utdNodesAllRun.sh```
+
+
+
+
+
 
