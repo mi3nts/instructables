@@ -1,7 +1,7 @@
 # Slurm Jobs 
 
 ## An example Slurm Job 
-
+***utdNodesRun01.sh:***
 ```
 # 
 #SBATCH -J utdNodes01         # Job name
@@ -18,5 +18,6 @@ On this example the job request 1 node and of  that one node it requests 16 core
 ## Submit the job to the queue 
 ```
 sbatch utdNodesRun01.sh
-``
+```
+
 
