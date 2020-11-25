@@ -21,7 +21,7 @@ Like this:
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-24%20at%209.17.55%20PM.png" width="542" height="100">
 
 ### **Formatting:**
-Cheat sheet for the most commonly used formatting -
+Cheat sheet for the most commonly used formatting...
   <p>   </p>
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.46.13%20PM.png" width="888" height="300">
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.46.53%20PM.png" width="736" height="350">
