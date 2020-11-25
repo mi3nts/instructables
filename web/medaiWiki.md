@@ -9,3 +9,12 @@ Once accessing MediaWiki's main page, look to the top right of your screen. You 
 You will then be allowed the option to create a new page in MediaWiki with your desired page name, **like this:**
 <p>    <p>
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-24%20at%207.35.05%20PM.png" width="550" height="223">
+<p>    <p>
+  <p>    <p>
+    <p>    <p>
+      
+**For protecting your page,** it's important to implement a restriction on those not a member of the adminstrators (sysop) usergroup. To do so you need to make changes to MediaWiki configuration file (LocalSettings.php)
+  <p>   </p>
+Like this:
+  <p>   </p>
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-24%20at%209.17.55%20PM.png" width="542" height="100">
