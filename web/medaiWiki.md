@@ -13,7 +13,8 @@ You will then be allowed the option to create a new page in MediaWiki with your 
   <p>    <p>
     <p>    <p>
       
-**For protecting your page,** it's important to implement a restriction on those not a member of the adminstrators (sysop) usergroup. To do so you need to make changes to MediaWiki configuration file (LocalSettings.php)
+### **Protecting your page:** 
+It's important to implement a restriction on those not a member of the adminstrators (sysop) usergroup. To do so you need to make changes to MediaWiki configuration file (LocalSettings.php)
   <p>   </p>
 Like this:
   <p>   </p>
