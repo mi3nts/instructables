@@ -19,3 +19,10 @@ It's important to implement a restriction on those not a member of the adminstra
 Like this:
   <p>   </p>
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-24%20at%209.17.55%20PM.png" width="542" height="100">
+
+### **Formatting:**
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.46.13%20PM.png" width="888" height="300">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.46.53%20PM.png" width="736" height="350">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.47.08%20PM.png" width="725" height="95">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.47.18%20PM.png" width="618" height="375">
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-25%20at%201.48.09%20PM.png" width="871" height="350">
