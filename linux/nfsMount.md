@@ -30,3 +30,5 @@ eg: ```10.173.44.20:/volume1/MINTSNASMEDIA /Volumes/MINTSNASMEDIA nfs defaults,_
    - Reboot PC  : ```sudo reboot```
    
 192.168.0.1:/NASShare  /mnt/NAS  nfs username=administrator,password=pass  0 0
+```
+sudo mount -t nfs -O user=usersName,pass=passsword  10.173.44.20:/volume1/MINTS /Volumes/MINTS
