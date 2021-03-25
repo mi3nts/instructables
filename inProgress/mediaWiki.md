@@ -1,5 +1,7 @@
 # Media Wiki 
-    9  sudo apt update
+  
+  ```
+   9  sudo apt update
    10  ls
    11  cd /tmp/
    12  wget https://releases.wikimedia.org/mediawiki/1.35/mediawiki-1.35.1.tar.gz
@@ -37,3 +39,4 @@
    44  clear
    45  ls
    46  history
+```
