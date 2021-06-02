@@ -11,17 +11,40 @@ Fill in your respective information:
          <p>    <p>
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Create%20Account%202.png" width="564" height="322">
 
-## **How to Create a New MediaWiki Page:**
+## **How to Create a New Page:**
 
 Once accessing MediaWiki's main page, look to the top right of your screen. You will see a search bar, and in the search bar type in what your desired page name is, then press enter. 
 
 You will then be allowed the option to create a new page in MediaWiki with your desired page name, **like this:**
 <p>    <p>
 <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Screen%20Shot%202020-11-24%20at%207.35.05%20PM.png" width="550" height="223">
-<p>    <p>
-  <p>    <p>
-    <p>    <p>
-         
+
+## **How to Link Pages:**
+Once creating or accessing a page, click the "Edit" button located here:
+      <p>    <p>
+      <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/editing%201.png" width="348" height="65">
+      <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/editing%202.png" width="348" height="73">
+Highlight the text you wish to link.
+            <p>    <p>
+  <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/link%202.png" width="348" height="133">
+                  <p>    <p>
+After highlighting the text you wish to link, click the link button.
+                        <p>    <p>
+          <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/link%203.png" width="348" height="151">
+                              <p>    <p>
+Paste the web address for which you choose to link the text to.
+                              <p>    <p>
+      <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/link%204.png" width="348" height="215">
+
+## **How to Add Media:**
+Once accessing the editing setting of your page, click the "insert" formatting button, and select images and media to upload whatever media you choose.
+                                    <p>    <p>
+      <img src="https://raw.githubusercontent.com/hannahzabie/Images/master/media%204.png" width="347" height="86">
+      
+## **How to Add References:**
+Use the placeholder tags <references /> and <ref> tags to reference.
+If you forget to include <references /> in the article, the footnotes will not disappear, but the references will be displayed at the end of the page.
+
 ### **Protecting your page:** 
 It's important to implement a restriction on those not a member of the adminstrators (sysop) usergroup. To do so you need to make changes to MediaWiki configuration file (LocalSettings.php)
   <p>   </p>
