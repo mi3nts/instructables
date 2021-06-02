@@ -2,6 +2,15 @@
 
 Mediawiki is a free software great for organizing and collecting knowledge while making your work available to the public.
 
+## **How to Create an Account:**
+
+Once accessing the MINTS Wiki Page, look to the top right corner, and click "Create account."
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Create%20Account%201.png" width="555" height="255">
+      <p>    <p>
+Fill in your respective information:
+         <p>    <p>
+<img src="https://raw.githubusercontent.com/hannahzabie/Images/master/Create%20Account%202.png" width="564" height="322">
+
 ## **How to Create a New MediaWiki Page:**
 
 Once accessing MediaWiki's main page, look to the top right of your screen. You will see a search bar, and in the search bar type in what your desired page name is, then press enter. 
@@ -12,7 +21,7 @@ You will then be allowed the option to create a new page in MediaWiki with your 
 <p>    <p>
   <p>    <p>
     <p>    <p>
-      
+         
 ### **Protecting your page:** 
 It's important to implement a restriction on those not a member of the adminstrators (sysop) usergroup. To do so you need to make changes to MediaWiki configuration file (LocalSettings.php)
   <p>   </p>
