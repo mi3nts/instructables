@@ -40,7 +40,6 @@ Please contact the mints team for access.
 - Accessing the psql DB 
 ```
 psql -U mints -h psql.scir.utdallas.edu - mints
-
 ```
 Please contact the mints team for the db pw.
 
@@ -48,7 +47,7 @@ Please contact the mints team for the db pw.
 While within the DB command line run the following.
 ``` SELECT sensors_id, sensors_name, FROM sensor_meta;
 ```
-to quit type `\q`
+to quit type ```\q```
 
 
 
