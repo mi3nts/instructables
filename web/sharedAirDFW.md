@@ -38,31 +38,25 @@ Please contact the mints team for access.
 ```/mfs/io/groups/lary/mints-sensordata-to-postgres-backend```
 
 - Accessing the psql DB 
-```
-psql -U mints -h psql.scir.utdallas.edu - mints
-```
+``` psql -U mints -h psql.scir.utdallas.edu - mints ```
 Please contact the mints team for the db pw.
 
 - Veiw sensors
 While within the DB command line run the following.
-``` SELECT sensors_id, sensors_name, FROM sensor_meta;
-```
+``` SELECT sensors_id, sensors_name, FROM sensor_meta;```
 to quit type ```\q```
 
 
 
 - Rename Sensor 
-``` curl localhost:3200/rename_sensors/SENSORID/NEWLABEL
-```
+``` curl localhost:3200/rename_sensors/SENSORID/NEWLABEL```
 **Note %20 is space**
 
 - Toggle Sensor 
-``` curl localhost:3200/toggle_sensors/SENSORID
-```
+``` curl localhost:3200/toggle_sensors/SENSORID```
 
  - Run historic update  
-``` python3 updateHistorical.py
-```
+``` python3 updateHistorical.py```
  
 ## QUESTION FOR GIAKHAN  
 - HOW TO RUN THE DB LOCALLY AND TEST 
