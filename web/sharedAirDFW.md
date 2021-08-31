@@ -19,6 +19,7 @@ make sure npm is upto date - apte-get might not get the latest.
 
 If thats the case, uninstall npm and nodejs.
 ```
+cd sharedairdfw_map
 sudo apt remove npm
 sudo apt remove nodejs
 ```
@@ -28,12 +29,42 @@ Run npm install
 npm install 
 ```
 
+### Step 2 : BACK END 
+- Log into larytemp
+```ssh netID@larytemp.circ.utdallas.edu```
+Please contact the mints team for access. 
+
+- Navigate into  mints-sensordata-to-postgres-backend
+```/mfs/io/groups/lary/mints-sensordata-to-postgres-backend```
+
+- Accessing the psql DB 
+```
+psql -U mints -h psql.scir.utdallas.edu - mints
+
+```
+Please contact the mints team for the db pw.
+
+- Veiw sensors
+While within the DB command line run the following.
+``` SELECT sensors_id, sensors_name, FROM sensor_meta;
+```
+to quit type `\q`
 
 
-### Step 2
 
-nodejs --version
+- Rename Sensor 
+``` curl localhost:3200/rename_sensors/SENSORID/NEWLABEL
+```
+**Note %20 is space**
 
+- Toggle Sensor 
+``` curl localhost:3200/toggle_sensors/SENSORID
+```
 
-
-
+ - Run historic update  
+``` python3 updateHistorical.py
+```
+ 
+## QUESTION FOR GIAKHAN  
+- HOW TO RUN THE DB LOCALLY AND TEST 
+- HOW STOP THE INJECTION AND RUN A NEW ONE 
