@@ -57,7 +57,56 @@ to quit type ```\q```
 
  - Run historic update  
 ``` python3 updateHistorical.py```
+
+- 
+```
+chown -R lhw150030:lary /mfs/io/groups/lary/mints-sensordata-to-postgres-backend/
+```
+
+```
+./headlessStart.sh 
+```
+
+TO Stop 
+
+```
+node  
+```
  
 ## QUESTION FOR GIAKHAN  
 - HOW TO RUN THE DB LOCALLY AND TEST 
 - HOW STOP THE INJECTION AND RUN A NEW ONE 
+
+Local backend run 
+- Setup Postgreysql DB 
+ - version 11, install postgreysql https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
+ - git clone git@github.com:mi3nts/mints-sensordata-to-postgres-backend.git
+ 
+ - within the sql folder on mints-sensordata ...
+  - run contents of https://github.com/mi3nts/mints-sensordata-to-postgres-backend/blob/master/sql/dbsetuppub.sql on pssql command line 
+  - remember pssql username and _PW_ 
+  - git clone git@github.com:mi3nts/mints-noaa-api.git 
+  - Copy and paste on to postgrescon.js
+const PSQL_LOGIN = "postgres://mints:_PW_@LOCALHOST:PORT/mints"
+const PSQL_WIND_LOGIN = "postgres://mints:_PW_@LOCALHOST:PORT/mints"
+module.exports = {
+        PSQL_LOGIN,
+        PSQL_WIND_LOGIN
+}
+
+API: runs on port 3000 
+- @ https://github.com/mi3nts/sharedairdfw_map/blob/master/src/services/sensor-data.js change the base URL to http://localhost:3000/
+- run 
+```node index.js ```
+
+RENAME https://github.com/mi3nts/mints-sensordata-to-postgres-backend/blob/master/mconfig-template.js
+RENAME https://github.com/mi3nts/mints-sensordata-to-postgres-backend/blob/master/postgrescon-template.js
+GET RID OF \`-template\`
+
+
+'<path to where the sensor data folders are>' = results folder nodeIDS should be presents 
+ 
+
+
+
+
