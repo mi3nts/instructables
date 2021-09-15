@@ -13,3 +13,11 @@ Takes care of many commits
 git lfs migrate import --include="*.csv"
 ```
 
+## Removing Pre Commited Files 
+Initially add the file to the .gitigore file  
+
+```
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
+```
