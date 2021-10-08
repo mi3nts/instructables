@@ -42,6 +42,9 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 -  Click Refresh 
 
 
+## Step 6: Updating UN/PW for the device
+- Via the System tab, click on remote General Button
+- Update both root and admin passwords 
 
 
 
