@@ -14,5 +14,24 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 - After the checks are done click proceed
 - Once Updated, the interface will come back on to its defaul page
 
+145: Done 
+## Step 3: Applying LoRaWan Settings
+- Via the LoRA tab and click on LoRa button. 
+- Change Keep Alive Period to 360 
+- Change frequency plan to US915 United States 915Mhz (902-928)
+- Change Sub Band to channel 8: US915, FBS8 (913.5~914.9)
+- Click Save and Apply
 
-## Step 2: Applying LoRa Wan Settings
+## Step 4: Update LORAWAN Credentials
+- Via the LoRAWAN tab and click on LoRaWAN -- Semtech UDP Button
+- Record Email and Gateway ID 
+- Update the Service provider to be 'Custom / Private LORAWAN'
+- Update the Server Address to  be 'us8.bridge.lora.trecis.cloud'
+- Click Save and Apply
+
+## Step 4: Disable WiFi 
+- Via the Network tab and click on WiFi button
+- Untick the Enable Wi-Fi Access Point check box
+
+##  Step 5: 
+
