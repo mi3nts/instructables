@@ -14,8 +14,7 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 - After the checks are done click proceed
 - Once Updated, the interface will come back on to its defaul page
 
-145: Done 
-## Step 3: Applying LoRaWan Settings
+## Step 3: Applying LoRa Settings
 - Via the LoRA tab and click on LoRa button. 
 - Change Keep Alive Period to 360 
 - Change frequency plan to US915 United States 915Mhz (902-928)
