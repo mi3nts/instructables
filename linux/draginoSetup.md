@@ -32,7 +32,11 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 - Via the Network tab and click on WiFi button
 - Untick the Enable Wi-Fi Access Point check box
 
-##  Step 5: Get Credentials for remote IT
+## Step 5: Updating UN/PW for the device
+- Via the System tab, click on remote General Button
+- Update both root and admin passwords 
+
+###  OPTIONAL: Step 6: Get Credentials for remote IT
 
 - Via the System tab, click on remote IT Button
 - Click Intall 
@@ -40,10 +44,6 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
    - Eg: Installing remoteit (4.13.5) to root... --------------------- Claim this device --------------------- Use the code **ABCDEF1** to register this device to your account --------------------- Claim this device --------------------- Configuring remoteit. Installation complete
 -  Click Refresh 
 
-
-## Step 6: Updating UN/PW for the device
-- Via the System tab, click on remote General Button
-- Update both root and admin passwords 
 
 
 
