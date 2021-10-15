@@ -9,6 +9,9 @@ On the command window type the following commands and ener data as par instructe
 - Check for attained priveledges:
 ` sudo whoami`</br>
 The output should be `root`
+- change password
+` passwd `
+
 
 ## Deleting Users 
 
