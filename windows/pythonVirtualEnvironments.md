@@ -8,7 +8,9 @@ Choose Option A for the execution policy change
 ```
 pip3 install virtualenv 
 mkdir   cd .\Users\lakit\vEnvironments\mqttSubsrciberEnv
-
 ```
+
+-  To Deactivate 
+```deactivate```
 
 
