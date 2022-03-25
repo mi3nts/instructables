@@ -46,3 +46,16 @@ To run a Fast scan, which lists devices and shows open ports
 
 nmap -F 192.168.8.1-254
 ```
+
+## Wi-FI wia command line 
+Just edit /etc/network/interfaces and write:
+```
+auto wlan0
+iface wlan0 inet dhcp 
+                wpa-ssid <ssid>
+                wpa-psk  <password>
+```
+After that write and close file and use command:
+```
+dhclient wlan0
+```
