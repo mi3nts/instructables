@@ -29,4 +29,17 @@ Downgrading numpy
 ```
  pip3 install numpy==1.21
  ```
+If the following error comes 
+```
+scikit_learn.libs/libgomp-d22c30c5.so.1.0.0: cannot allocate memory in static TLS block
+```
+Add the following for the bashrc file 
+```
+# Added by Lakitha 2022_08_05
+export LD_PRELOAD=/home/teamlary/.local/lib/python3.8/site-packages/scikit_learn.libs/libgomp-d22c30c5.so.1.0.0
+
+```
+
+
+ 
  
