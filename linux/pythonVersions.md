@@ -9,6 +9,14 @@ sudo update-alternatives --install /usr/bin/python3 python /usr/bin/python3.10 1
 sudo update-alternatives --config python
 sudo apt install python3.8-distutils
 ```
+PIP install 
+```
+sudo apt update
+pip3 install sounddevice
+sudo apt install python3-pip
+```
+
+
 
 When Port Audio Not Found 
 ```
@@ -17,6 +25,11 @@ python3 -m sounddevice
 sudo apt-get install libportaudio2
 
 ```
+Install Git 
+```
+sudo apt install git-all
+```
+
 
 Install USB Port Power Manager 
 ```
