@@ -11,6 +11,7 @@ sudo apt install python3.8-distutils
 ```
 PIP install 
 ```
+sudo addgroup teamlary audio
 sudo apt update
 pip3 install sounddevice
 sudo apt install python3-pip
