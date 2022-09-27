@@ -1,1 +1,8 @@
 == Julia for HPC Systems
+Julia is a programming language that appears to be gaining increasing popularity among many scientific communities. When programming for scientific purposes, scientists typically use general programming languages such as Fortran, C/C++, Java, Swift, C#, Go, JavaScript, Python, or mathematical programming alternatives like MATLAB/Octave, R, or Maple. When choosing between these languages, ease of use and runtime must be considered. It is common for all these languages to fall on either extreme ends of the learning spectrum, either being easy to learn but slow, or at the other end being harder to learn but with faster run times. Julia sits much better in the middle, being both easy to learn and providing superior runtimes.  
+
+The JIT compilation, implemented using LLVM, enables Julia to accomplish this by allowing optional typing, multiple dispatch, and type inference. In addition, Julia is a multiparadigm programming language that combines imperative, functional, and object-oriented features. Consequently, Julia is considered a scientific programming language and is well suited for statistics, machine learning, data science, as well as for light and heavy numerical computations.
+
+== The Use of Julia on Europa (HPC Systems)
+
+Julia can be used and variety of means on Europa. The simplest means is by loading Julia 
