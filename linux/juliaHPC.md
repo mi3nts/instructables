@@ -99,7 +99,10 @@ To install packages, Julia has its own package manager. This can be simply acces
  
  To simply install packages, 'add' keyword can be used. 
  
- <pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add Revise
+ <pre>
+ <font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add Revise
+ <font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add BenchmarkTools
+ <font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add Pluto
 </pre>
 
 <pre>
