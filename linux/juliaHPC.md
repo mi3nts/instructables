@@ -97,13 +97,18 @@ To install packages, Julia has its own package manager. This can be simply acces
 <font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>
 </pre>
  
+ To simply install packages, 'add' keyword can be used. 
  
- 
- 
- 
+ <pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add Revise
+</pre>
 
-
-
+<pre>
+<font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>st
+<font color="#859900"><b>      Status</b></font> `~/.julia/environments/v1.7/Project.toml`
+ <font color="#002B36"> [6e4b80f9] </font>BenchmarkTools v1.3.1
+ <font color="#002B36"> [c3e4b0f8] </font>Pluto v0.19.12
+ <font color="#002B36"> [295af30f] </font>Revise v3.4.0
+</pre>
 
 
 
