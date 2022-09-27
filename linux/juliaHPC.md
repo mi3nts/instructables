@@ -113,33 +113,30 @@ To install packages, Julia has its own package manager. This can be simply acces
  <font color="#002B36"> [295af30f] </font>Revise v3.4.0
 </pre>
 
-To add specific versions of a package, 'add' keyworkd with extending charactor '@' can be used.
+# Setting the number of threads
+```
+export JULIA_NUM_THREADS=8
+```
+To check on the julia REPL try the following 
+```
+julia> using Base.Threads
+julia> Threads.nthreads()
+8
+```
 
-<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>add BenchmarkTools@1.3.0
-</pre>
-<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>st
-<font color="#859900"><b>      Status</b></font> `~/.julia/environments/v1.7/Project.toml`
- <font color="#002B36"> [6e4b80f9] </font>BenchmarkTools v1.3.0
- <font color="#002B36"> [c3e4b0f8] </font>Pluto v0.19.12
- <font color="#002B36"> [295af30f] </font>Revise v3.4.0
-</pre>
-
-# Reproducable Nnvironments.
-Manifest.toml and Package.toml are used to produce reproducable environments. 
-
-
-
-# Updating Packages 
-
-to update all the packages simple use the 'up' command on the package REPL.
-<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>up
-</pre>
-To simply update a specific package follow the 'up' keyword with package name.  
-<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>up BenchmarkTools
+To activate a unique environment for your project the key work activate can be used withing the package
+<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>activate mints
+<font color="#859900"><b>  Activating</b></font> new project at `~/mints`
 </pre>
 
-# Garbage Collection 
-<pre><font color="#268BD2"><b>(@v1.7) pkg&gt; </b></font>gc --all</pre>
+
+
+
+
+
+   
+
+
 
 
 
