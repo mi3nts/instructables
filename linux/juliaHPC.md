@@ -129,6 +129,29 @@ To activate a unique environment for your project the key work activate can be u
 <font color="#859900"><b>  Activating</b></font> new project at `~/mints`
 </pre>
 
+Each Unique environment will have to unique files.
+- Package.toml
+
+
+- Manifest.toml:
+This will cary all state intformation for a specific environment(state). 
+
+Its often advisable to have these two prjects within a github repo for reproducabilty. To activate a given julia environment the following can be used within your julia script. 
+```
+cd(@__DIR__)
+using Pkg
+Pkg.actvate(".") 
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
