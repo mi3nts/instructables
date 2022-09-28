@@ -31,7 +31,16 @@ $ julia
 julia> 
 ----
 
-At this point you have access to the Jula Command Line Version of Read Evaluate Print Loop (REPL).
+At this point you have access to the Jula Command Line Version of Read Evaluate Print Loop (REPL). To check if everything is working appropprately simple code snippets can  be carried out. 
+
+[source,bash]
+----
+julia> println("Hello World!")
+Hello World!
+
+julia> x= 1+2
+3
+----
 
 
 
