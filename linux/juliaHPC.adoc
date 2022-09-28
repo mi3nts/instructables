@@ -5,4 +5,17 @@ The JIT compilation, implemented using LLVM, enables Julia to accomplish this by
 
 == The Use of Julia on Europa (HPC Systems)
 
-Julia can be used and variety of means on Europa. The simplest means is by loading Julia 
+Julia can be used and variety of means on Europa. The simplest means is by loading a module which is pre installed on Europa. Users can configure their environments using modules, which are cross-compiled across a number of different compilers, giving the HPC cluster great flexibility. However when using a pre installed module,users are limited to the Julia versions in which the modules will have available. 
+
+[source,bash]
+----
+julia
+-bash: julia: command not found
+(base) [lhw150030@login-01 ~]$ ml avail julia
+
+--------------------------------------------------------- /opt/ohpc/pub/unpackaged/modulefiles ---------------------------------------------------------
+   julia/1.7.2
+
+module load julia/1.7.2
+----
+
