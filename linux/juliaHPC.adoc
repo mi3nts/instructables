@@ -74,7 +74,19 @@ Additionally, it is advisable to add Julia's bin folder (with full path) to PATH
 ----
 export PATH="$PATH:/home/<NET ID>/Software/julia-1.8.1/bin"
 ----
- 
+
+=== Julia Packages 
+Depending on where Julia is installed, standard libraries can be found at `/share/julia/base` and `share/julia/stdlib`. Julia's ecosystem is built by external contributors and they are simply available on Github repositories. The package listings can be found https://julialang.org/packages/[here]. 
+
+
+
+
+
+
+
+
+
+
  
 
 
