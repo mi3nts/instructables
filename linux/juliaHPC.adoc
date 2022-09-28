@@ -9,13 +9,30 @@ Julia can be used and variety of means on Europa. The simplest means is by loadi
 
 [source,bash]
 ----
-julia
+$ julia
 -bash: julia: command not found
-(base) [lhw150030@login-01 ~]$ ml avail julia
+$ ml avail julia
 
 --------------------------------------------------------- /opt/ohpc/pub/unpackaged/modulefiles ---------------------------------------------------------
    julia/1.7.2
 
-ml load julia/1.7.2
+$ ml load julia/1.7.2
+$ julia 
+(base) [lhw150030@login-01 ~]$ julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.7.2 (2022-02-06)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia> 
 ----
 
+At this point you have access to the Jula Command Line Version of Read Evaluate Print Loop (REPL).
+
+
+
+*Note: You shouldn't run any significant computations on the login nodes, but it's a great way to make sure everything works.*
