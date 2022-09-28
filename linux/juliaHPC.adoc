@@ -50,10 +50,22 @@ julia> x= 1+2
 It is important to note that you are not restricted to using Julia versions provided by Europa when installing Julia Binaries, which allows you to mitigate any issues that may arise as Julia continues to evolve.
 
 In order to avoid getting multiple versions of Julia if you have followed the previous steps, you should log out and log back in. On your home directory create a Downloads folder and download the appropriate https://julialang.org/downloads/[julia binaries]. 
-
-
-
-
-
+[source,bash]
+----
+$ cd ~
+$ mkdir Software
+$ cd Software/
+$ wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.1-linux-x86_64.tar.gz
+$ tar -xzf julia-1.8.1-linux-x86_64.tar.gz 
+$ ./julia-1.8.1/bin/julia 
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.8.1 (2022-09-06)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+----
 
 
