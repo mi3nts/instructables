@@ -1,11 +1,14 @@
-== Julia Programming Language
+= Julia Programming Language
 Julia is a programming language that appears to be gaining increasing popularity among many scientific communities. When programming for scientific purposes, scientists typically use general programming languages such as Fortran, C/C++, Java, Swift, C#, Go, JavaScript, Python, or mathematical programming alternatives like MATLAB/Octave, R, or Maple. When choosing between these languages, ease of use and runtime must be considered. It is common for all these languages to fall on either extreme ends of the learning spectrum, either being easy to learn but slow, or at the other end being harder to learn but with faster run times. Julia sits much better in the middle, being both easy to learn and providing superior runtimes.  
 
 The JIT compilation, implemented using LLVM, enables Julia to accomplish this by allowing optional typing, multiple dispatch, and type inference. In addition, Julia is a multiparadigm programming language that combines imperative, functional, and object-oriented features. Consequently, Julia is considered a scientific programming language and is well suited for statistics, machine learning, data science, as well as for light and heavy numerical computations.
 
 == The Use of Julia on Europa (HPC Systems)
 
-Julia can be used and variety of means on Europa. The simplest means is by loading a module which is pre installed on Europa. Users can configure their environments using modules, which are cross-compiled across a number of different compilers, giving the HPC cluster great flexibility. However when using a pre installed module,users are limited to the Julia versions in which the modules will have available. 
+Julia can be used and variety of means on Europa. 
+
+=== Using Pre Installed Modules 
+The simplest means is by loading a module which is pre installed on Europa. Users can configure their environments using modules, which are cross-compiled across a number of different compilers, giving the HPC cluster great flexibility. However when using a pre installed module,users are limited to the Julia versions in which the modules will have available. 
 
 [source,bash]
 ----
@@ -31,7 +34,7 @@ $ julia
 julia> 
 ----
 
-At this point you have access to the Jula Command Line Version of Read Evaluate Print Loop (REPL). To check if everything is working appropprately simple code snippets can  be carried out. 
+At this point you have access to the Command Line Version of Julia or the Read Evaluate Print Loop (REPL). To check if everything is working appropprately simple code snippets can  be carried out. 
 
 [source,bash]
 ----
@@ -41,7 +44,16 @@ Hello World!
 julia> x= 1+2
 3
 ----
-
-
-
 *Note: You shouldn't run any significant computations on the login nodes, but it's a great way to make sure everything works.*
+
+=== Installing Julia Binaries.
+It is important to note that you are not restricted to using Julia versions provided by Europa when installing Julia Binaries, which allows you to mitigate any issues that may arise as Julia continues to evolve.
+
+In order to avoid getting multiple versions of Julia if you have followed the previous steps, you should log out and log back in. On your home directory create a Downloads folder and download the appropriate https://julialang.org/downloads/[julia binaries]. 
+
+
+
+
+
+
+
