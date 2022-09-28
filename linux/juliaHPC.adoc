@@ -78,6 +78,32 @@ export PATH="$PATH:/home/<NET ID>/Software/julia-1.8.1/bin"
 === Julia Packages 
 Depending on where Julia is installed, standard libraries can be found at `/share/julia/base` and `share/julia/stdlib`. Julia's ecosystem is built by external contributors and they are simply available on Github repositories. The package listings can be found https://julialang.org/packages/[here]. 
 
+Julia has an in built package manager `Pkg` which can be used to install any packages written in Julia. This is quite similar to pip package manager on Python. Version control and dependancy management is handled automatically by `Pkg`. Julia also offers a REPL for `Pkg` and this can be accessed entering the ] key on the julia REPL. 
+
+[source,julia]
+----
+(@v1.8) pkg> 
+----
+To install packages the add keyword followed by the package name can be used within `pkg`. The `st` (stands for status) command on the package manager is used to track the current state of the julia environment.
+
+----
+(@v1.8) pkg> st
+Status `~/.julia/environments/v1.8/Project.toml` (empty project)
+(@v1.8) pkg> add Revise
+(@v1.8) pkg> add BenchmarkTools Statistics
+(@v1.8) pkg> st
+Status `~/.julia/environments/v1.8/Project.toml`
+  [6e4b80f9] BenchmarkTools v1.3.1
+  [295af30f] Revise v3.4.0
+  [10745b16] Statistics
+----
+
+To return to back to the Julia REPL, `Ctrl+C` or `Backspace` can be used. 
+
+
+
+
+
 
 
 
