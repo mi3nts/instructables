@@ -49,7 +49,7 @@ julia> x= 1+2
 === Installing Julia Binaries.
 It is important to note that you are not restricted to using Julia versions provided by Europa when installing Julia Binaries, which allows you to mitigate any issues that may arise as Julia continues to evolve.
 
-In order to avoid getting multiple versions of Julia if you have followed the previous steps, you should log out and log back in. On your home directory create a Downloads folder and download the appropriate https://julialang.org/downloads/[julia binaries]. 
+In order to avoid getting multiple versions of Julia if you have followed the previous steps, you should log out and log back in. On your home directory create a Software folder and download the appropriate https://julialang.org/downloads/[julia binaries]. 
 [source,bash]
 ----
 $ cd ~
@@ -67,5 +67,15 @@ $ ./julia-1.8.1/bin/julia
  _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
 |__/                   |
 ----
+*Note: It is entirely up to the user to choose where to download the binaries*
+
+Additionally, it is advisable to add Julia's bin folder (with full path) to PATH environment variable, you can edit the ~/.bashrc file. 
+[source,bash]
+----
+export PATH="$PATH:/home/<NET ID>/Software/julia-1.8.1/bin"
+----
+ 
+ 
+
 
 
