@@ -4,6 +4,11 @@
 - check for connected devices ``df -h`` 
 - Do the Back Up `sudo dd if=/dev/sdXX of=~/sd-card-copy.img`. Make sure to replace XX with the appropriate symbols. Example:
 `sudo dd if=/dev/sde of=/media/teamlary/Team_Lary_1/gitGubRepos/data/images/GISNode/GISNode.img`
+
+## Troubleshooting of Resource busy
+- check for connected devices list `diskutil list`
+- unmount the device `sudo diskutil unmount $device`
+- then try the above code for backup
   
 ## Download and install Etcher 
  - Download link can be found [here](https://www.balena.io/etcher/):
