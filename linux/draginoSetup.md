@@ -36,6 +36,18 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 - Via the System tab, click on remote General Button
 - Update both root and admin passwords 
 
+
+## Step 6: Add the current gateway to your network 
+- Naviate to http://lora-large-1.trecis.cloud:18083/#/organizations/2/gateways
+- Hit 'Create Gateway' and add the following details
+   - Gateway Name: MINTS-GN02-2058d0-LIG16
+   - Gateway Description: Dragino LIG16 Gateway
+   - Add Gateway ID: a84041ffff2058d0
+   - Add Gateway Server: utd.lora.network.us8
+   - Add service profile: us8:8    
+   - Hit Create Gateway
+
+
 ###  OPTIONAL: Step 6: Get Credentials for remote IT
 
 - Via the System tab, click on remote IT Button
