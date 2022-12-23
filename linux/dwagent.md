@@ -3,7 +3,8 @@
 
 - Create new agent on your account
 - Download 
-For Ubuntu download installer from https://www.dwservice.net/download/dwagent.sh
+
+For Ubuntu download the installer from https://www.dwservice.net/download/dwagent.sh
 ```
 wget https://www.dwservice.net/download/dwagent.sh
 sudo ./dwagent.sh
@@ -16,5 +17,6 @@ sudo ./dwagent.sh
 ## Uninstall 
 
 ``sudo bash /usr/share/dwagent/native/uninstall``
+
 Afterward follow the instructions on screen 
 
