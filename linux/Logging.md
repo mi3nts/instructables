@@ -17,4 +17,4 @@ command1 > out.txt 2> err.txt
 ```
 
 
-Based on this (link)[https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/]
+Based on this [link](https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/)
