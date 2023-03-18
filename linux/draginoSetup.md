@@ -6,6 +6,7 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
 - Using nmap or your router console figure out the ip address of the dragino device. 
 - Type up the dragino IP address and its port to log into the dragino device.
    - Eg:    http://192.168.20.145:8000/
+   - Eg:    http://192.168.20.145:80/ - For LPS8-V2  
    - Defualt PW dragino for root
 
 ## Step 2: Updating the Dragino Firmware
