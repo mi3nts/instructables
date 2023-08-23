@@ -13,7 +13,7 @@
 | GUV001       | 15 Secs    |
 | HM3301       | 10 Secs    |
 | IP           |  6 Hours   |
-| IP2 |        |  6 Hours   |
+| IP2          |  6 Hours   |
 | IPS7100      |  1 Sec     |
 | LIBRAD       | 30 Sec     |
 | RG15         | 10 Sec     |
