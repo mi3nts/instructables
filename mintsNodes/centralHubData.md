@@ -29,4 +29,4 @@
 | YXXDR        |  5 Secs    |
 
 
-JSON Packets avaialable @ 
+JSON Packets avaialable  (here)[https://github.com/mi3nts/instructables/blob/master/mintsNodes/jsonStrings.zip]
