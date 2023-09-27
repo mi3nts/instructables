@@ -6,6 +6,8 @@ Central nodes will have multiple sbc typically requiring either 5 or 12 v inputs
 Latichg relays are used to keep current energy without waisting energy.
 On solid state relays there are no mechanical parts Typically normally closed and use opto electronics.
 
+Multiple poles means multiple circuits that a relay can control. Eg: a light and a fan. 
+
 ## references
 - https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
 - youtube.com/watch?v=n594CkrP6xE&t=634s
