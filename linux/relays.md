@@ -5,3 +5,8 @@ Central nodes will have multiple sbc typically requiring either 5 or 12 v inputs
 
 
 
+
+
+## references
+- https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
+
