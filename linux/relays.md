@@ -4,7 +4,8 @@
 
 Some useful options- >
 https://www.sparkfun.com/products/16566  --> Ratings  :(
-
+https://www.adafruit.com/product/3191 --> Only works with 3V arduinos --> Like featherwings 
+https://www.sparkfun.com/products/15093 --> Can used but 3V 
 
 
 Central nodes will have multiple sbc typically requiring either 5 or 12 v inputs intended to be controlled via multiple relays. The relays need to be focused on resistive loads that are work on 5/3.3 microcontrollers with line voltage power handling capabilities of atleast 12v/5v with 5amp inputs. And further they need to be normally closed.
