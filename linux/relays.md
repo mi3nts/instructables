@@ -7,7 +7,7 @@ Latichg relays are used to keep current energy without waisting energy.
 On solid state relays there are no mechanical parts Typically normally closed and use opto electronics.
 
 Multiple poles means multiple circuits that a relay can control. Eg: a light and a fan. 
-Double throw relay gives you normally open as well as normally closed pins.
+Double throw relay gives you alernative open/closed pins. when one is on the other one is off. 
 
 ## references
 - https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
