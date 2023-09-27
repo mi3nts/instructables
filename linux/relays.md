@@ -10,4 +10,5 @@ On solid state relays there are no mechanical parts Typically normally closed an
 
 ## references
 - https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
+- youtube.com/watch?v=n594CkrP6xE&t=634s
 
