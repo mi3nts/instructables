@@ -6,6 +6,7 @@ Central nodes will have multiple sbc typically requiring either 5 or 12 v inputs
 
 
 
+On solid state relays there are no mechanical parts Typically normally closed and use opto electronics.
 
 ## references
 - https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
