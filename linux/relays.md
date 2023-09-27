@@ -9,6 +9,8 @@ On solid state relays there are no mechanical parts Typically normally closed an
 Multiple poles means multiple circuits that a relay can control. Eg: a light and a fan. 
 Double throw relay gives you alernative open/closed pins. when one is on the other one is off. 
 
+Delayed circuits often does the action after a se amount of time. 
+
 ## references
 - https://www.youtube.com/watch?v=7DcCwGuP-eI&themeRefresh=1
 - youtube.com/watch?v=n594CkrP6xE&t=634s
