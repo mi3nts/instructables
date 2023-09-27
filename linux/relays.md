@@ -3,10 +3,10 @@
 ## Central Node V2
 
 Some useful options- >
-https://www.sparkfun.com/products/16566  --> Ratings  :(
-https://www.adafruit.com/product/3191 --> Only works with 3V arduinos --> Like featherwings 
-https://www.sparkfun.com/products/15093 --> Can used but 3V 
-
+- https://www.sparkfun.com/products/16566  --> Ratings  :(
+- https://www.adafruit.com/product/3191 --> Only works with 3V arduinos --> Like featherwings 
+- https://www.sparkfun.com/products/15093 --> Can used but 3V 
+- https://www.seeedstudio.com/Grove-4-Channel-SPDT-Relay-p-3119.html?queryID=d22056fa10e5ca343d38e74143396d60&objectID=90&indexName=bazaar_retailer_products
 
 Central nodes will have multiple sbc typically requiring either 5 or 12 v inputs intended to be controlled via multiple relays. The relays need to be focused on resistive loads that are work on 5/3.3 microcontrollers with line voltage power handling capabilities of atleast 12v/5v with 5amp inputs. And further they need to be normally closed.
 
