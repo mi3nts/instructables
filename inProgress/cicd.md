@@ -31,7 +31,7 @@ nohup python3 l_1_liveUpdate.py >& logs/liveUpdate2023.log &
 ```
 
 ### MQTT Data from LoRaWAN Nodes
-The Calibration of the climate data as well as properly formatting the data is done through the firmare available at [[https://github.com/mi3nts/loRaMqttLive](https://github.com/mi3nts/loRaMqttLive)](https://github.com/mi3nts/loRaMqttLive). On IMD the repo can be found on the mfs mount @ /mfs/io/groups/lary/gitHubRepos/loRaMqttLive/firmware
+The Calibration of the climate data as well as properly formatting the data is done through the firmare available at https://github.com/mi3nts/loRaMqttLive. On IMD the repo can be found on the mfs mount @ /mfs/io/groups/lary/gitHubRepos/loRaMqttLive/firmware
 ```
 cd /mfs/io/groups/lary/gitHubRepos/loRaMqttLive/firmware
 nohup python3 l_1_loRaLiveUpdate.py >& logs/liveLoRaLiveUpdate2023.log &
