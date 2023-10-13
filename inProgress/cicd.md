@@ -40,7 +40,7 @@ The process of calibrating climate data, along with the steps of data cleansing 
 cd /mfs/io/groups/lary/gitHubRepos/loRaMqttLive/firmware
 nohup python3 l_1_loRaLiveUpdate.py >& logs/liveLoRaLiveUpdate2023.log &
 ```
-
+** Please ensure that multiple instances of these codes are not executed simultaneously. **
 
 
 
