@@ -11,11 +11,11 @@ Data from MINTS nodes is acquired through three distinct data pipelines:
 
 
 
-## RSYCED data from directly connected nodes
+### RSYCED data from directly connected nodes
 The rsync scripts run automatically on the nodes via cronjobs, ensuring that in the event of an IMD system reboot, data synchronization is automatic. As a result, there is no need for any manual intervention on IMD's part after an unexpected reboot. We have established specific SSH keys to facilitate these connections.
 
 
-## MQTT Data 
+### MQTT Data 
 
 As an additional layer of data backup, we store data from the two MQTT pipelines. The firmware required for this task is available at [GitHub - mi3nts/mqttSubscribers](https://github.com/mi3nts/Subscribers). Within the IMD system, you can locate the repository on the mfs mount at /mfs/io/groups/lary/gitHubRepos/mqttSubscribers/firmware.
 
