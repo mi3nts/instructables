@@ -22,7 +22,7 @@ Calibration and data formatting for climate data are achieved through firmware a
 cd /mfs/io/groups/lary/gitHubRepos/mqttLive/firmware
 nohup python3 l_1_liveUpdate.py >& logs/liveUpdate2023.log &
 
-
+```
 
 
 
