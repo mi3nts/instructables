@@ -40,6 +40,15 @@ The process of calibrating climate data, along with the steps of data cleansing 
 cd /mfs/io/groups/lary/gitHubRepos/loRaMqttLive/firmware
 nohup python3 l_1_loRaLiveUpdate.py >& logs/liveLoRaLiveUpdate2023.log &
 ```
+
+### Live data migration into PostgreSQL
+[sharedairdfw.com](https://www.sharedairdfw.com/) relies on the structured data stored in CSV files, which are imported into a PostgreSQL database. This data integration process is facilitated by the firmware accessible at [GitHub - mi3nts/mints-sensordata-to-postgres-backend](https://github.com/mi3nts/mints-sensordata-to-postgres-backend). Within the IMD system, you can find this repository on the mfs mount at /mfs/io/groups/lary/mints-sensordata-to-postgres-backend.
+```
+cd /mfs/io/groups/lary/mints-sensordata-to-postgres-backend
+./headlessStart.sh
+```
+
+
 **Please ensure that multiple instances of these codes are not executed simultaneously.**
 
 
