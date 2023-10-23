@@ -9,6 +9,10 @@ Local Updates
  - DOCKER_INFLUXDB_URL=${DOCKER_INFLUXDB_URL:?err}
  - DOCKER_INFLUXDB_HOSTNAME=${DOCKER_INFLUXDB_HOSTNAME:?err} 
 ```
+remove config.json file 
+```
+rm  ~/.docker/config.json
+```
 
 
 The instructable derived from https://cometmail-my.sharepoint.com/:v:/g/personal/lhw150030_utdallas_edu/EZo4fgwqnjBNpaLhVPl4OioBZGKhiE6v8Qe9YfD5hUH71g?e=YOi1P5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
