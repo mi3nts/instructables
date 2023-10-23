@@ -4,7 +4,7 @@ Local Updates
 - cd influxdb
 - mv ../.env .env
 - Change the .env with proper credentials
-- From the configuration on Oct 22nd line 45 and 46 needs to be removed
+- From the configuration on Oct 22nd line 45 and 46 from docker-compose.yml needs to be removed 
 ```
  - DOCKER_INFLUXDB_URL=${DOCKER_INFLUXDB_URL:?err}
  - DOCKER_INFLUXDB_HOSTNAME=${DOCKER_INFLUXDB_HOSTNAME:?err} 
