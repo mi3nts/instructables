@@ -17,7 +17,7 @@ The rsync scripts run automatically on the nodes via cronjobs, ensuring that in 
 
 ### MQTT Data 
 
-As an additional layer of data backup, we store data from the two MQTT pipelines. The firmware required for this task is available at [mqttSubscribersV2](https://github.com/mi3nts/mqttSubscribersV2). Within the IMD system, you can locate the repository on the mfs mount at /mfs/io/groups/lary/gitHubRepos/mqttSubscribers/firmware.
+As an additional layer of data backup, we store data from the two MQTT pipelines. The firmware required for this task is available at [mqttSubscribersV2](https://github.com/mi3nts/mqttSubscribersV2). Within the IMD system, you can locate the repository on the mfs mount at /mfs/io/groups/lary/gitHubRepos/mqttSubscribersV2/firmware.
 
 ```
 cd /mfs/io/groups/lary/gitHubRepos/mqttSubscribersV2/firmware
