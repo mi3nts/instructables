@@ -32,12 +32,9 @@ hwclock -s
 exit 0
 ```
 
+Make sure to add the line before the exit clause.
 
-
-
-
-
-After rebooting the following should be the result 
+After the prevuis two steps are done and then rebooting the following should be the result 
 ```
 root@odroid:~# ls -l /dev/rtc*
 lrwxrwxrwx 1 root root      4 Apr  2  2020 /dev/rtc -> rtc0
