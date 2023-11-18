@@ -19,12 +19,12 @@ Derived using this [link](https://www.tecmint.com/set-time-timezone-and-synchron
 
 # Set Up RTC for Odroid C4 
 
-'sudo nano /media/boot/config.ini '
+`sudo nano /media/boot/config.ini`
 
 On the file add the following 
-'
+```
 ; Device Tree Overlay
 overlay_resize=16384
 overlay_profile=
 overlays="pcf8563"
-'
+```
