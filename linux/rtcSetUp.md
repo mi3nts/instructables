@@ -18,6 +18,24 @@ overlay_profile=
 overlays="spi0 i2c0 i2c1 uart0 pcf8563"
 ```
 
+# Update system Time/Calendar from the Hardware RTC shield at boot time
+Edit the `/etc/rc.local` file 
+
+`sudo nano /etc/rc.local`
+
+Add this line: `hwclock -s`
+```
+if [ -f /aafirstboot ]; then /aafirstboot start ; fi
+ 
+hwclock -s
+ 
+exit 0
+```
+
+
+
+
+
 
 After rebooting the following should be the result 
 ```
