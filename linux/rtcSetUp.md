@@ -10,6 +10,14 @@ overlay_resize=16384
 overlay_profile=
 overlays="pcf8563"
 ```
+With other interfaces active 
+```
+; Device Tree Overlay
+overlay_resize=16384
+overlay_profile=
+overlays="spi0 i2c0 i2c1 uart0 pcf8563"
+```
+
 
 After rebooting the following should be the result 
 ```
