@@ -16,3 +16,15 @@ The instructions given below should be followed on all linux driven mints nodes:
 
 
 Derived using this [link](https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/)
+
+# Set Up RTC for Odroid C4 
+
+'sudo nano /media/boot/config.ini '
+
+On the file add the following 
+'
+; Device Tree Overlay
+overlay_resize=16384
+overlay_profile=
+overlays="pcf8563"
+'
