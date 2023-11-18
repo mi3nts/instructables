@@ -28,3 +28,17 @@ overlay_resize=16384
 overlay_profile=
 overlays="pcf8563"
 ```
+
+After rebooting the following should be the result 
+```
+root@odroid:~# ls -l /dev/rtc*
+lrwxrwxrwx 1 root root      4 Apr  2  2020 /dev/rtc -> rtc0
+crw------- 1 root root 251, 0 Apr  2  2020 /dev/rtc0
+root@odroid:~# zcat /proc/config.gz | grep PCF8563
+CONFIG_RTC_DRV_PCF8563=y
+root@odroid:~# lsmod
+.....
+i2c_meson_master       20480  0
+.....
+root@odroid:~#
+```
