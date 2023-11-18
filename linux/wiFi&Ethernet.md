@@ -59,3 +59,20 @@ After that write and close file and use command:
 ```
 dhclient wlan0
 ```
+
+
+# On a rasbery pi 
+
+``` sudo nano /etc/wpa_supplicant/wpa_supplicant.conf ```
+```
+network={
+ssid="The SSID of your network (eg. Network name)"
+psk="Your Wifi Password"
+}
+```
+
+
+
+
+
+
