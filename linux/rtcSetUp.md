@@ -1,7 +1,6 @@
-
-
 # Set Up RTC for Odroid C4 
 
+Edit the boot config file 
 `sudo nano /media/boot/config.ini`
 
 On the file add the following 
