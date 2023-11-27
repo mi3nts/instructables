@@ -16,7 +16,7 @@
   `crontab -e`
   
 - Update sudo cron job 
-  `cat /home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/sudo/Xu4Cron.txt`
+  `cat /home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/sudoXu4Cron.txt`
   `sudo crontab -e`
 
 - Reboot
