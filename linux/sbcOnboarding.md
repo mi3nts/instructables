@@ -22,6 +22,9 @@
   `cat /home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/sudoXu4Cron.txt`
   
   `sudo crontab -e`
+  
+- Rsync Check  
+  `rsync -avzrtu -e "ssh -p 2222" /home/teamlary/mintsData/raw/ mints@mintsdata.utdallas.edu:raw`
 
 - Reboot
   
