@@ -13,10 +13,12 @@
 - Upload the credentials file to `/home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/mintsXU4`
 - Update cron job 
   `cat /home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/xu4Cron.txt`
+
   `crontab -e`
   
 - Update sudo cron job 
   `cat /home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/sudoXu4Cron.txt`
+  
   `sudo crontab -e`
 
 - Reboot
