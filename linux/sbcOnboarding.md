@@ -7,6 +7,7 @@
 ### VaLo Node DC 
 
 
+- Downloading the git repo 
 ```git clone git@github.com:mi3nts/vaLoNodeDC.git ```
 
 - Upload the credentials file to `/home/teamlary/gitHubRepos/vaLoNodeDC/firmware/xu4Mqtt/mintsXU4`
