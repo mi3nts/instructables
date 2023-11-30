@@ -16,5 +16,9 @@ command1 > everything.txt 2>&1
 command1 > out.txt 2> err.txt
 ```
 
+- Logging with append standard output and the errors to the same file 
+```
+command1 >> everything.txt 2>&1
+```
 
 Based on this [link](https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/)
