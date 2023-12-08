@@ -1,4 +1,4 @@
-#Configure Direct Connect Nodes
+# Configure Direct Connect Nodes
 
 1. Change user from root to teamlary : ```su teamlary```. Go to home by running ```cd ..```.
 2. Go to the following loccation by running ```cd home/teamlary/gitHubRepos```
