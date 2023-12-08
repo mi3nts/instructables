@@ -1,3 +1,5 @@
+#Configure Direct Connect Nodes
+
 1. Change user from root to teamlary : ```su teamlary```. Go to home by running ```cd ..```.
 2. Go to the following loccation by running ```cd home/teamlary/gitHubRepos```
 3. Clone the appropriate git repo for the device type by running ```git clone url``` where you replace ```url``` with the github repo url.
