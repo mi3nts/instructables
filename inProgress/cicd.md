@@ -47,7 +47,7 @@ At this poin you should see something similar to the following
  1434 mints     20   0  924556  63964  15816 S   2.3  0.1   2:59.73 node       
 ```
 
-Make sure the user is mints (second column) and the process ID (first column) is the same for all the rows. Afterwards kill the relavant process ID.
+Make sure the user is mints (second column) and the process ID (first column) is the same for all the rows. Afterwards kill the relavant process ID (** 1434 for this particular case **).
 ```
 kill 1434
 ```
