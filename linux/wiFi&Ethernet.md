@@ -71,8 +71,9 @@ psk="Your Wifi Password"
 }
 ```
 
-
-
+# Enabling WiFi Moodule - Realtek 802.11 - Specifically on x86 (Odroid H3)
+https://wiki.odroid.com/odroid-h3/application_note/howto_wifi_driver_rtl8812au
+For Arm versions follow https://github.com/gnab/rtl8812au
 
 
 
