@@ -21,7 +21,7 @@ As an additional layer of data backup, we store data from the two MQTT pipelines
 
 ```
 cd /mfs/io/groups/lary/gitHubRepos/mqttSubscribersV2/firmware
-nohup ./runDataReaders.sh > /dev/null 2>&1
+nohup ./runDataReaders.sh > /dev/null 2>&1 &
 ```
 
 ## SharedAirDFW Support 
