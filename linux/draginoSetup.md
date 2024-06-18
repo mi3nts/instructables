@@ -8,7 +8,9 @@ Dragino LoRa hubs are set up to be be installed on to the MINTS Central Hubs. A 
    - Eg:    http://192.168.20.145:8000/
    - Eg:    http://192.168.20.145:80/ - For LPS8-V2  
    - Defualt PW dragino for root
-   - May be helpful: http://wiki.dragino.com/xwiki/bin/view/Main/User%20Manual%20for%20All%20Gateway%20models/HP0C/
+   - May be helpful:
+      -  https://cdn.robotshop.com/media/D/Drt/RB-Drt-114/pdf/dragino-lps8v2-indoor-lorawan-gateway-us915-no-4g-user-manual.pdf
+      - http://wiki.dragino.com/xwiki/bin/view/Main/User%20Manual%20for%20All%20Gateway%20models/HP0C/
 
 ## Step 2: Updating the Dragino Firmware
 - On the web interface, via the system tab and click on firmware upgrade button. 
