@@ -65,6 +65,14 @@ If no processors are active, do
 
 **Please ensure that multiple instances of these codes are not executed simultaneously.**
 
+### MINTS Particulate Matter Corrections 
+Mints offer particulate matter corrections for data that may be impacted by precipitation forming around particulate matter. The necessary firmware for this task can be found at mqttPMCorrections. Within the IMD system, the repository is located on the mfs mount at /mfs/io/groups/lary/gitHubRepos/mqttPMCorrections/firmware.
+
+```
+cd /mfs/io/groups/lary/gitHubRepos/mqttPMCorrections/firmware
+nohup ./runCorrections.sh  >/dev/null 2>&1  &
+```
+
 
 
 
