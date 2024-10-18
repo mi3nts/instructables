@@ -1,15 +1,15 @@
-Rclone is used to backupt he light module data originally stored on a Windows machine on to IMD.
+Rclone is used to backup the light module data originally stored on a Windows machine on to IMD.
 
-First, in order to use SSH key for authentication, the public key of the Windows machine should be added to the Linux machine's authorized_keys file.
+First, in order to use SSH key for authentication, the public key of the Windows machine should be added to the IMD's authorized_keys file.
 On Windows:
 Display the public key by using:
 ```
 cat $HOME\.ssh\id_rsa.pub
 ```
-Select the entire output and copy it to your clipboard.
+Select the entire output and copy it.
 
 On IMD:
-Run the following command to create or edit the authorized_keys file.
+Run the following command to edit the authorized_keys file.
 ```
 nano ~/.ssh/authorized_keys
 ```
@@ -39,10 +39,10 @@ rclone lsd remote_linux:/
 
 Once Rclone has been set up properly on both ends, a batch script and Windows Task Scheduler are
 used to automatically sync the files whenever new content is added to the folder.
-Create a Batch Script that includes:
+Create a batch script that includes:
 ```
 rclone sync "C:\Users\yichao\Desktop\mintsData\raw\001e06453e58" remote_imd:/home/mints/raw/001e06453e58
 
 rclone sync "C:\Users\yichao\Desktop\Minolta\10004098" remote_imd:/home/mints/raw/10004098
 ```
-Set Up Task Scheduler to Run the Script Automatically
+Set up Task Scheduler to run the script automatically.
