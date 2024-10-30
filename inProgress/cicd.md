@@ -30,7 +30,7 @@ The data produced by MINTS Nodes, accessible through [sharedairdfw.com](https://
 ### MQTT data from directly connected nodes for sharedairdfw.com as well as LoRaWAN Nodes
 The process of calibrating climate data, along with the steps of data cleansing and averaging, is managed by the firmware accessible on [GitHub - mi3nts/mqttLiveV2](https://github.com/mi3nts/mqttLiveV2). Within the IMD system, this repository is located on the mfs mount at /mfs/io/groups/lary/gitHubRepos/mqttLive/firmware.
 ```
-cd /mfs/io/groups/lary/gitHubRepos/mqttLiveV2/firmware
+cd /mfs/io/groups/lary/gitHubRepos/mqttLiveV3/firmware
 nohup ./runDataReaders.sh  >/dev/null 2>&1  &
 ```
 
