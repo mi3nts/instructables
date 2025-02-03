@@ -1,4 +1,4 @@
-```markdown
+
 # USB Physical Locations
 
 ## Finding a Serial Port from a USB Device's Physical Location
