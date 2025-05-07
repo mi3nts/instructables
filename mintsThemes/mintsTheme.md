@@ -1,5 +1,180 @@
 
 ### Initial Colors
+# Create corrected Markdown content using pure HTML so colors will be visible
+html_content = """
+<h3>Initial Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#FBA85B; width:100px; height:30px;"></td><td>#FBA85B</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+</table>
+
+<hr>
+
+<h3>Additional Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#66BEB2; width:100px; height:30px;"></td><td>#66BEB2</td></tr>
+<tr><td style="background-color:#F99192; width:100px; height:30px;"></td><td>#F99192</td></tr>
+<tr><td style="background-color:#8AD6CC; width:100px; height:30px;"></td><td>#8AD6CC</td></tr>
+<tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
+<tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
+</table>
+"""
+
+# Save the fixed HTML-content inside a .md file
+fixed_file_path = '/mnt/data/color_swatches_fixed.md'
+with open(fixed_file_path, 'w') as f:
+    f.write(html_content)
+
+fixed_file_path
+# Create corrected Markdown content using pure HTML so colors will be visible
+html_content = """
+<h3>Initial Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#FBA85B; width:100px; height:30px;"></td><td>#FBA85B</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+</table>
+
+<hr>
+
+<h3>Additional Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#66BEB2; width:100px; height:30px;"></td><td>#66BEB2</td></tr>
+<tr><td style="background-color:#F99192; width:100px; height:30px;"></td><td>#F99192</td></tr>
+<tr><td style="background-color:#8AD6CC; width:100px; height:30px;"></td><td>#8AD6CC</td></tr>
+<tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
+<tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
+</table>
+"""
+
+# Save the fixed HTML-content inside a .md file
+fixed_file_path = '/mnt/data/color_swatches_fixed.md'
+with open(fixed_file_path, 'w') as f:
+    f.write(html_content)
+
+fixed_file_path
+# Create corrected Markdown content using pure HTML so colors will be visible
+html_content = """
+<h3>Initial Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#FBA85B; width:100px; height:30px;"></td><td>#FBA85B</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+</table>
+
+<hr>
+
+<h3>Additional Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#66BEB2; width:100px; height:30px;"></td><td>#66BEB2</td></tr>
+<tr><td style="background-color:#F99192; width:100px; height:30px;"></td><td>#F99192</td></tr>
+<tr><td style="background-color:#8AD6CC; width:100px; height:30px;"></td><td>#8AD6CC</td></tr>
+<tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
+<tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
+</table>
+"""
+
+# Save the fixed HTML-content inside a .md file
+fixed_file_path = '/mnt/data/color_swatches_fixed.md'
+with open(fixed_file_path, 'w') as f:
+    f.write(html_content)
+
+fixed_file_path
+# Create corrected Markdown content using pure HTML so colors will be visible
+html_content = """
+<h3>Initial Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#FBA85B; width:100px; height:30px;"></td><td>#FBA85B</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+</table>
+
+<hr>
+
+<h3>Additional Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#66BEB2; width:100px; height:30px;"></td><td>#66BEB2</td></tr>
+<tr><td style="background-color:#F99192; width:100px; height:30px;"></td><td>#F99192</td></tr>
+<tr><td style="background-color:#8AD6CC; width:100px; height:30px;"></td><td>#8AD6CC</td></tr>
+<tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
+<tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
+</table>
+"""
+
+# Save the fixed HTML-content inside a .md file
+fixed_file_path = '/mnt/data/color_swatches_fixed.md'
+with open(fixed_file_path, 'w') as f:
+    f.write(html_content)
+
+fixed_file_path
+# Create corrected Markdown content using pure HTML so colors will be visible
+html_content = """
+<h3>Initial Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#FBA85B; width:100px; height:30px;"></td><td>#FBA85B</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+</table>
+
+<hr>
+
+<h3>Additional Colors</h3>
+
+<table>
+<tr><th>Color</th><th>Hex Code</th></tr>
+<tr><td style="background-color:#3CD184; width:100px; height:30px;"></td><td>#3CD184</td></tr>
+<tr><td style="background-color:#F97171; width:100px; height:30px;"></td><td>#F97171</td></tr>
+<tr><td style="background-color:#1E81B0; width:100px; height:30px;"></td><td>#1E81B0</td></tr>
+<tr><td style="background-color:#66BEB2; width:100px; height:30px;"></td><td>#66BEB2</td></tr>
+<tr><td style="background-color:#F99192; width:100px; height:30px;"></td><td>#F99192</td></tr>
+<tr><td style="background-color:#8AD6CC; width:100px; height:30px;"></td><td>#8AD6CC</td></tr>
+<tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
+<tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
+</table>
+"""
+
+# Save the fixed HTML-content inside a .md file
+fixed_file_path = '/mnt/data/color_swatches_fixed.md'
+with open(fixed_file_path, 'w') as f:
+    f.write(html_content)
+
+fixed_file_path
 
 | Color | Hex Code |
 |:-----:|:--------:|
