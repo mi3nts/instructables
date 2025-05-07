@@ -1,4 +1,29 @@
 
+### Initial Colors
+
+| Color | Hex Code |
+|:-----:|:--------:|
+| <span style="background-color:#FBA85B; padding: 0.5em 1em; display:inline-block;"></span> | `#FBA85B` |
+| <span style="background-color:#1E81B0; padding: 0.5em 1em; display:inline-block;"></span> | `#1E81B0` |
+| <span style="background-color:#F97171; padding: 0.5em 1em; display:inline-block;"></span> | `#F97171` |
+| <span style="background-color:#3CD184; padding: 0.5em 1em; display:inline-block;"></span> | `#3CD184` |
+
+---
+
+### Additional Colors
+
+| Color | Hex Code |
+|:-----:|:--------:|
+| <span style="background-color:#3CD184; padding: 0.5em 1em; display:inline-block;"></span> | `#3CD184` |
+| <span style="background-color:#F97171; padding: 0.5em 1em; display:inline-block;"></span> | `#F97171` |
+| <span style="background-color:#1E81B0; padding: 0.5em 1em; display:inline-block;"></span> | `#1E81B0` |
+| <span style="background-color:#66BEB2; padding: 0.5em 1em; display:inline-block;"></span> | `#66BEB2` |
+| <span style="background-color:#F99192; padding: 0.5em 1em; display:inline-block;"></span> | `#F99192` |
+| <span style="background-color:#8AD6CC; padding: 0.5em 1em; display:inline-block;"></span> | `#8AD6CC` |
+| <span style="background-color:#3D6647; padding: 0.5em 1em; display:inline-block;"></span> | `#3D6647` |
+| <span style="background-color:#000080; padding: 0.5em 1em; display:inline-block;"></span> | `#000080` |
+
+
 # For python 
 
 ``` python 
@@ -31,4 +56,11 @@ mpl.rcParams.update({
     'image.cmap': 'viridis',
 })
 
+# Other Colors
+
+color='#FBA85B'
+color='#1e81b0')
+color='#f97171')
+color='#3cd184'
+ ['#3cd184', '#f97171', '#1e81b0', '#66beb2', '#f99192', '#8ad6cc', '#3d6647', '#000080']),
 ```
