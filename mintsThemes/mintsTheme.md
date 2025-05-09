@@ -1,4 +1,12 @@
-# Color Codes
+
+# Mints Theme 
+
+## Logos 
+
+
+
+
+
 ## Color Table 
 | Color | Hex Code | Name |
 |:-----:|:--------:|:----:|
