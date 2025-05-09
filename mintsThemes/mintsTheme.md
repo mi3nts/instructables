@@ -9,6 +9,5 @@
 | ![](./icons/8AD6CC.png) | `#8AD6CC` | Aqua |
 | ![](./icons/3D6647.png) | `#3D6647` | Forest |
 | ![](./icons/000080.png) | `#000080` | Navy |
-|  |  |  |
 | ![](./icons/FBA85B.png) | `#FBA85B` | Orange |
-| ![](./icons/3CD184.png) | `#3CD184` | Green |
+
