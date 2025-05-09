@@ -1,4 +1,4 @@
-Color Codes
+# Color Codes
 | Color | Hex Code |
 |:-----:|:--------:|
 | ![](./icons/FBA85B.png) | `#FBA85B` |
