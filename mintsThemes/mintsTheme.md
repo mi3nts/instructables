@@ -1,7 +1,7 @@
 
 ### Initial Colors
 # Create corrected Markdown content using pure HTML so colors will be visible
-html_content = """
+"""html
 <h3>Initial Colors</h3>
 
 <table>
