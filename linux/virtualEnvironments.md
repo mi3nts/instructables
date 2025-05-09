@@ -1,6 +1,3 @@
-1. Create a Virtual Environment:
-bash
-Copy code
 # Navigate to your project directory
 cd /path/to/your/project
 
