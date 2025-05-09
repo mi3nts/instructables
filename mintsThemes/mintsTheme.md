@@ -1,7 +1,7 @@
 
 ### Initial Colors
 # Create corrected Markdown content using pure HTML so colors will be visible
-"""html
+```html
 <h3>Initial Colors</h3>
 
 <table>
@@ -27,7 +27,7 @@
 <tr><td style="background-color:#3D6647; width:100px; height:30px;"></td><td>#3D6647</td></tr>
 <tr><td style="background-color:#000080; width:100px; height:30px;"></td><td>#000080</td></tr>
 </table>
-"""
+```
 
 # Save the fixed HTML-content inside a .md file
 fixed_file_path = '/mnt/data/color_swatches_fixed.md'
