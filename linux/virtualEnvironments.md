@@ -92,3 +92,17 @@ deactivate
 ```
 
 By following these steps, you can create a virtual environment, manage your project's dependencies, and use Git for version control. This approach helps keep your project isolated and easily shareable.
+
+
+# AWS for LoRaWAN 
+```
+lora small	i-07a7399c5dbb6f979	t3a.small	us-east-1f	ec2-3-237-8-108.compute-1.amazonaws.com	3.237.8.108	lora	2021/07/29 16:59 GMT-5
+lora large 1	i-023f0d2e73691b079	t3a.large	us-east-1f	ec2-34-204-203-10.compute-1.amazonaws.com	34.204.203.10	lora	2021/07/29 17:04 GMT-5
+lora large 2	i-0c1cbeba834cf2246	t3a.large	us-east-1f	ec2-3-238-248-138.compute-1.amazonaws.com	3.238.248.138	lora	2021/07/29 17:04 GMT-5
+lora medium 1	i-0c88a21ff5cf26794	t3a.medium	us-east-1f	ec2-3-235-223-202.compute-1.amazonaws.com	3.235.223.202	lora	2021/07/29 17:10 GMT-5
+lora medium 2	i-05228f1849fbf0ac3	t3a.medium	us-east-1f	ec2-3-80-232-187.compute-1.amazonaws.com	3.80.232.187	lora	2021/07/29 17:35 GMT-5
+lora medium 3	i-03b2c17738b728b06	t3a.medium	us-east-1f	ec2-3-230-135-128.compute-1.amazonaws.com	3.230.135.128	lora	2021/07/29 17:10 GMT-5
+```
+
+
+
